@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.00)
+project(ProgressBar)
+set(SOURCE_FILES ${CMAKE_BINARY_DIR}/src/main.cpp)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build)
+add_executable(ProgressBar ${SOURCE_FILES})
